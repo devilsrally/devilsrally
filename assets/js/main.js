@@ -46,6 +46,7 @@
 							'images/oldpurr.JPG': 'center',
 							'images/streetfighter.JPG': 'center',
 							'images/twisties.JPG': 'center',
+							'images/R53sm.JPG': 'center',
 						},
 
 					// Delay.
