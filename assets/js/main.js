@@ -36,17 +36,16 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/bmws.JPG': 'center',
-							'images/chevelle.JPG': 'center',
-							'images/c6.JPG': 'center',
-							'images/curve.JPG': 'center',
-							'images/interior.JPG': 'center',
-							'images/bmws.JPG': 'center',
-							'images/LBMcLaren.JPG': 'center',
-							'images/oldpurr.JPG': 'center',
-							'images/streetfighter.JPG': 'center',
-							'images/twisties.JPG': 'center',
-							'images/R53sm.JPG': 'center',
+							'https://i.imgur.com/HY17tHe.jpg': 'center',
+							'https://i.imgur.com/2W7GW8L.jpg': 'center',
+							'https://i.imgur.com/qAkMls0.jpg': 'center',
+							'https://i.imgur.com/UvRMQyG.jpg': 'center',
+							'https://i.imgur.com/KolnmT5.jpg': 'center',
+							'https://i.imgur.com/BN2wCwT.jpg': 'center',
+							'https://i.imgur.com/hxXkwPo.jpg': 'center',
+							'https://i.imgur.com/pGQWDUK.jpg': 'center',
+							'https://i.imgur.com/7QragLm.jpg': 'center',
+							'https://i.imgur.com/rtDP4zq.jpg': 'center',
 						},
 
 					// Delay.
