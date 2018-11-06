@@ -37,8 +37,8 @@
 					// Images (in the format of 'url': 'alignment').
 						images: {
 							'images/bmws.JPG': 'center',
-							'images/chevelle.JPG': 'right',
-							'images/c6.JPG': 'left',
+							'images/chevelle.JPG': 'center',
+							'images/c6.JPG': 'center',
 							'images/curve.JPG': 'center',
 							'images/interior.JPG': 'center',
 							'images/bmws.JPG': 'center',
