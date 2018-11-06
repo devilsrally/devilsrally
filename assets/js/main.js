@@ -41,6 +41,7 @@
 							'images/c6.JPG': 'left',
 							'images/curve.JPG': 'center',
 							'images/interior.JPG': 'center',
+							'images/bmws.JPG': 'center',
 							'images/LBMcLaren.JPG': 'center',
 							'images/oldpurr.JPG': 'center',
 							'images/streetfighter.JPG': 'center',
