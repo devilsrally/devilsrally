@@ -23,11 +23,22 @@
 			</header>
 
 		<!-- Signup Form -->
+		<form class="gform" method="POST" data-email="example@email.net"
+		      action="https://script.google.com/macros/s/AKfycbzNTomC4lhv5tHCrH_pvhKMojHI_Sf_BlbYLJciF9n8pOj2AY41/exec">
+		<!-- change the form action to your script url -->	      
+		<fieldset class="pure-group">
+			<input id="email" name="email" type="email" value="" placeholder="Email Address"/>
+			<input type="submit" value="Get in on the fun" />
+			<span class="email-invalid" style="display:none">
+				Must be a valid email address</span>
+     		</fieldset>
+		
+		
+		
 			<form class="gform" method="POST" data-email="example@email.net">
-			id="signup-form" method="post" action="#"
+			id="gform" method="post" action="https://script.google.com/macros/s/AKfycbzNTomC4lhv5tHCrH_pvhKMojHI_Sf_BlbYLJciF9n8pOj2AY41/exec"
 				<input type="email" name="email" id="email" placeholder="Email Address" />
 				<input type="submit" value="Get in on the fun" />
-			action="https://script.google.com/macros/s/AKfycbwbFafhsr1EzWDf7xoHN8QgwX3rK80jhRK3NsX-ug/exec">
 			</form>
 
 		<!-- Footer -->
