@@ -1117,11 +1117,11 @@ input, select, textarea {
 /* gform pure-form pure-form-stacked */
 
 	#gform pure-form pure-form-stacked {
+		display: inline-block;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: inline-block;
-		padding: 5
+		padding: 5;
 		position: relative;
 	}
 
