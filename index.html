@@ -23,44 +23,10 @@
 			</header>
 
 		<!-- Signup Form -->
-		<form class="gform" method="POST" data-email="example@email.net"
-		      action="https://script.google.com/macros/s/AKfycbzNTomC4lhv5tHCrH_pvhKMojHI_Sf_BlbYLJciF9n8pOj2AY41/exec">
-		<!-- change the form action to your script url -->	      
-		<fieldset class="pure-group">
-			<input id="email" name="email" type="email" value="" placeholder="Email Address"/>
-			<input type="submit" value="Get in on the fun" />
-			<span class="email-invalid" style="display:none">
-				Must be a valid email address</span>
-			</fieldset>
-			    
-	<div class="form-elements">
-      <fieldset class="pure-group">
-        <label for="name">Name: </label>
-        <input id="name" name="name" placeholder="What your Mom calls you" />
-      </fieldset>
-
-      <fieldset class="pure-group">
-        <label for="message">Message: </label>
-        <textarea id="message" name="message" rows="10"
-        placeholder="Tell us what's on your mind..."></textarea>
-      </fieldset>
-
-      <fieldset class="pure-group">
-        <label for="email"><em>Your</em> Email Address:</label>
-        <input id="email" name="email" type="email" value=""
-        required placeholder="your.name@email.com"/>
-        <span class="email-invalid" style="display:none">
-          Must be a valid email address</span>
-      </fieldset>
-
-      <fieldset class="pure-group">
-        <label for="color">Favourite Color: </label>
-        <input id="color" name="color" placeholder="green" />
-      </fieldset>
-
-      <button class="button-success pure-button button-xlarge">
-        <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
-    </div>
+			<form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbzNTomC4lhv5tHCrH_pvhKMojHI_Sf_BlbYLJciF9n8pOj2AY41/exec">
+				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<input type="submit" value="Get in on the fun" />
+			</form>
 
 
 		<!-- Footer -->
