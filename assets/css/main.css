@@ -1114,6 +1114,61 @@ input, select, textarea {
 
 		}
 
+/* gform pure-form pure-form-stacked */
+
+	#gform pure-form pure-form-stacked {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		position: relative;
+	}
+
+		#gform pure-form pure-form-stacked input[type="text"],
+		#gform pure-form pure-form-stacked input[type="password"],
+		#gform pure-form pure-form-stacked input[type="email"] {
+			width: 18em;
+		}
+
+		#gform pure-form pure-form-stacked > * {
+			margin: 0 0 0 1em;
+		}
+
+		#gform pure-form pure-form-stacked > :first-child {
+			margin: 0 0 0 0;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#gform pure-form pure-form-stacked {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+
+				#gform pure-form pure-form-stacked input[type="type"],
+				#gform pure-form pure-form-stacked input[type="password"],
+				#gform pure-form pure-form-stacked input[type="email"] {
+					width: 100%;
+				}
+
+				#gform pure-form pure-form-stacked > * {
+					margin: 1.25em 0 0 0;
+				}
+
+				#gform pure-form pure-form-stacked .message {
+					bottom: -1.5em;
+					font-size: 0.9em;
+					height: 1em;
+					left: 0;
+					line-height: inherit;
+					margin-top: 0;
+					position: absolute;
+				}
+
+		}
+
 /* Footer */
 
 	#footer {
