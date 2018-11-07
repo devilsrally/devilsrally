@@ -1120,7 +1120,8 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: inline-block;
+		padding: 5
 		position: relative;
 	}
 
