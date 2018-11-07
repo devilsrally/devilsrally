@@ -1065,7 +1065,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: inline-block;
 		position: relative;
 	}
 
@@ -1142,7 +1142,6 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#gform pure-form pure-form-stacked {
-				inline-block: column;
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
