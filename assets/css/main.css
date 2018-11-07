@@ -1118,9 +1118,6 @@ input, select, textarea {
 
 	#gform pure-form pure-form-stacked {
 		display: inline-block;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		padding: 5;
 		position: relative;
 	}
@@ -1136,7 +1133,7 @@ input, select, textarea {
 		}
 
 		#gform pure-form pure-form-stacked > :first-child {
-			margin: 0 0 0 1em;
+			margin: 0 0 0 2em;
 		}
 
 		@media screen and (max-width: 480px) {
