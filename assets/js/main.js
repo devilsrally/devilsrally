@@ -110,7 +110,6 @@
 
 	// Signup Form.
 		(function() {
-
 			
 	
 				var $form = $('form#signup-form'),
