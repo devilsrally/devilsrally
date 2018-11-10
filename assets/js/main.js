@@ -111,11 +111,22 @@
 	// Signup Form.
 		(function() {
 
-			// Vars.
-				var $form = document.querySelectorAll('#signup-form')[0],
-					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
-					$message;
-
+			
+	
+				var $form = $('form#test-form'),
+    					url = 'https://script.google.com/macros/s/AKfycbzNTomC4lhv5tHCrH_pvhKMojHI_Sf_BlbYLJciF9n8pOj2AY41/exec'
+					$('#submit-form').on('click', function(e) {
+  					e.preventDefault();
+  					var jqxhr = $.ajax({
+    					url: url,
+    					method: "GET",
+    					dataType: "json",
+    					data: $form.serializeObject()
+  					}).success(
+    	// do something
+  				);
+				})		
+			
 			// Bail if addEventListener isn't supported.
 				if (!('addEventListener' in $form))
 					return;
