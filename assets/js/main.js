@@ -113,7 +113,7 @@
 
 			
 	
-				var $form = $('form#Devils Rally'),
+				var $form = $('form#signup-form'),
     					url = 'https://script.google.com/macros/s/AKfycbzNTomC4lhv5tHCrH_pvhKMojHI_Sf_BlbYLJciF9n8pOj2AY41/exec'
 					$('#submit-form').on('click', function(e) {
   					e.preventDefault();
