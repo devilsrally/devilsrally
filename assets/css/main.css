@@ -1125,7 +1125,7 @@ input, select, textarea {
 		#gform pure-form pure-form-stacked input[type="text"],
 		#gform pure-form pure-form-stacked input[type="password"],
 		#gform pure-form pure-form-stacked input[type="email"] {
-			width: 18em;
+			width: 8em;
 		}
 
 		#gform pure-form pure-form-stacked > * {
