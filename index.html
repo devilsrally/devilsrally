@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	This site was made using:
@@ -24,8 +25,11 @@
 			</header>
 
 		<!-- Signup Form -->
-		
-			<form id="signup-form" method="post" action="https://script.google.com/macros/s/AKfycbzNTomC4lhv5tHCrH_pvhKMojHI_Sf_BlbYLJciF9n8pOj2AY41/exec">
+	
+			<iframe width="0" height="0" border="0" name="success" id="success"></iframe>	
+			<form id="signup-form" method="post"
+action="https://script.google.com/macros/s/AKfycbzNTomC4lhv5tHCrH_pvhKMojHI_Sf_BlbYLJciF9n8pOj2AY41/exec"
+target=success onsubmit="return alert('Success! Thanks for your interest!');">
 				<div class="container">
 				<input type="text" placeholder="My name is:" name="name" required>	
 				<input type="text" placeholder="I drive a:" name="whip" required>
@@ -42,6 +46,7 @@
    				fetch(scriptURL, { method: 'POST', body: new FormData(form)})  
     				.catch(error => console.error('Error!', error.message))
 				})
+				alert("I am an alert box!");	
  			</script> 
 		
 <!-- end of form -->
